@@ -1,0 +1,8 @@
+*{
+  padding: 80;
+  margin: 20;
+}
+
+.cards{
+  display: flex;
+}
