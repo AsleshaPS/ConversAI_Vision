@@ -1,1 +1,2 @@
 # ConversAI_Vision
+This project is a comprehensive solution that integrates image recognition and natural language processing (NLP) to automatically detect and diagnose faults in Printed Circuit Boards (PCBs). The chatbot leverages deep learning to identify defects such as open circuits, shorts, mousebites, spurs, pinholes, and spurious copper, and provides detailed responses to user queries about these defects.
