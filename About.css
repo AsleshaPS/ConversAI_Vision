@@ -1,0 +1,48 @@
+.about-background {
+  background-image: url('https://www.metadialog.com/wp-content/uploads/2022/12/chatbot-for-healthcare.webp'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the entire element */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Keep the image fixed in place */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  min-height: 100vh; /* Ensure the background covers the full viewport height */
+  padding: 20px; /* Add some padding */
+  border-radius: 20px;
+}
+
+.about-content {
+  color: #0e0801; /* Text color */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the content box */
+  max-width: 800px; /* Max width to prevent too wide content */
+  margin: 0 auto; /* Center the content box horizontally */
+  margin-top: 10vh;
+}
+
+.about-content h1 {
+  color: rgb(0, 0, 0); /* Dark blue color for headings */
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-content h2 {
+  color: #36cbd3; /* Medium blue color for subheadings */
+  font-style: oblique;
+  font-family:'Courier New', Courier, monospace;
+  text-decoration: underline;
+}
+
+.about-content p, .about-content ul {
+  color: #000000; /* Dark gray color for text */
+  font-family: cursive;
+  font-style: italic;
+}
+
+.about-content ul {
+  padding-left: 20px;
+}
+
+.about-content li {
+  margin-bottom: 10px;
+}

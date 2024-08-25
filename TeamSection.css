@@ -1,0 +1,37 @@
+.team-section {
+  padding: 20px;
+  background: url('https://th.bing.com/th/id/R.936c4a35c6b02da7e0ad8c3366e47947?rik=9uAdvVZmLQwTzQ&riu=http%3a%2f%2fwww.morganstanley.com%2fpub%2fcontent%2fdam%2fmsdotcom%2fideas%2feight-ways-to-volunteer-joan-steinberg%2ftile-joan-steinberg.jpg&ehk=qoeKRQnKb36j%2f3YyRZO%2b77UdgyspOJfxRdFpr%2fkvc9A%3d&risl=&pid=ImgRaw&r=0') no-repeat center center;
+  background-size: cover; /* Ensure the image covers the whole section */
+  text-align: center;
+  min-height: 100vh; /* Ensures the section covers at least the full viewport height */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  border-radius: 20px;
+}
+
+.team-member {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  vertical-align: top; /* Ensures alignment with the other team members */
+  color: #0e0801; 
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  margin: 10px 0;
+  font-size: 1.5em;
+}
+
+.team-member p {
+  margin: 5px 0;
+}

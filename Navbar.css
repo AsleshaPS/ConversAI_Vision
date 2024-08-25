@@ -1,0 +1,55 @@
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Distributes space between navbar items and the button */
+    align-items: center; /* Centers items vertically */
+    background-color: black;
+    padding: 1rem; /* Add some padding for spacing */
+    border-radius: 0 0 20px 20px; /* Curved corners at the bottom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for a subtle 3D effect */
+    border-radius: 20px
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    list-style: none; /* Remove default list styling */
+}
+
+li {
+    list-style-type: none;
+}
+
+nav a {
+    color: rgb(170, 229, 252); /* Text color of the links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 2rem; /* Font size for links */
+    padding: 0.5rem 1rem; /* Padding inside links */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover {
+    background-color: #e8f4f5; /* Background color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+.login-button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}

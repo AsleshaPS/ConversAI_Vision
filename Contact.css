@@ -1,0 +1,83 @@
+/* Ensure no extra padding or margins are applied globally */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.contact-background {
+  background-image: url('https://www.alist-card.com/wp-content/uploads/2020/08/Technology.png'); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the image fixed in place */
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures the background covers the full viewport height */
+  padding: 0 20px; /* Add some padding on the sides */
+  box-sizing: border-box; /* Include padding and border in element’s total width and height */
+  border-radius: 20px;
+}
+
+.contact-content {
+  color: #0e0801; /* Text color */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the content box */
+  max-width: 800px; /* Max width to prevent too wide content */
+  margin: 0 auto; /* Center the content box horizontally */
+  box-sizing: border-box; /* Include padding and border in element’s total width and height */
+  position: fixed;
+  left: 300px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rating-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.emoji-container {
+  font-size: 2rem; /* Size of emojis */
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.emoji {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.emoji.selected {
+  transform: scale(1.2); /* Slightly enlarge the selected emoji */
+}
+
+.feedback-section {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #004d99; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #003366; /* Darker button color on hover */
+}

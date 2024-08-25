@@ -1,0 +1,80 @@
+/* LandingPage.css */
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh; /* Full viewport height */
+    background-image: url('https://i.pinimg.com/originals/11/5e/1e/115e1e38d825c9a4088c059e5b6bb097.png'); /* Background image URL */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  .landing-content {
+    text-align: top;
+    color: #000000; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .navigate-button {
+    margin-top: 70%;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: #000000fc;
+    background-color: #007ad7; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow */
+  }
+  
+  .navigate-button:hover {
+    background-color: #6696c9; /* Darker color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+    transform: translateY(-2px); /* Slightly lift the button on hover */
+  }
+  
+  .quote-container {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #000;
+    max-width: 300px; 
+    text-align: left;
+    font-family: cursive;
+  }
+  
+  .quote-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .quote-text {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .quote-author {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
+  .navbar-placeholder {
+    position: fixed; /* Make sure it's fixed in place */
+    top: 0; /* Position it at the top */
+    left: 0;
+    width: 100%; /* Full width to cover the navbar */
+    height: 80px; /* Height should match the height of your navbar */
+    background-color: black; /* Transparent to blend with the background */
+    z-index: 1; /* Ensure it's above other content but below the overlay */
+  }
+  

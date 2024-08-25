@@ -1,0 +1,11 @@
+.card{
+    width: 300px;                                     /* Width of the box */
+    height: 150px;                                    /* Height of the box */
+    padding: 20px;                                    /* Padding inside the box */
+    background-color: #ff9e2f;                      /* Background color*/
+    border: 2px solid #ed2929;                      /* Border style */
+    border-radius: 8px;                               /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(18, 18, 18, 0.2);  /* Shadow effect */
+    margin: 20px;            
+}
+

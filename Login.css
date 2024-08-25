@@ -1,0 +1,51 @@
+.login-background {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20231231/pngtree-tech-texture-abstract-blue-polygonal-vector-graphic-design-image_13892111.png'); /* Light background color for the login page */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.login-form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for form */
+    max-width: 400px; /* Maximum width for the form */
+    width: 100%; /* Full width within max-width */
+}
+
+.login-form h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 2rem; /* Font size for the heading */
+}
+
+.login-form label {
+    display: block; /* Block display for labels */
+    margin-bottom: 8px; /* Space below labels */
+    font-weight: bold; /* Bold font for labels */
+}
+
+.login-form input {
+    width: 100%; /* Full width of the input fields */
+    padding: 10px;
+    margin-bottom: 20px; /* Space below input fields */
+    border: 1px solid #ddd; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+.login-form button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
